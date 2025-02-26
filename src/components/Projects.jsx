@@ -150,7 +150,7 @@ const Projects = () => {
 
         {/* OllamaBot */}
         <Flex
-          className="project2"
+          className="project4"
           justifyContent={"space-between"}
           marginBottom={5}
         >
@@ -182,6 +182,9 @@ const Projects = () => {
             </Text>
           </VStack>
         </Flex>
+
+        {/* Portfolio Project */}
+        
       </Box>
     </div>
   )

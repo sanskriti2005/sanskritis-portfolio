@@ -4,8 +4,8 @@ import Content from "./components/Main";
 
 const App = () => {
   return (
-    <div>
-      <Container className="dark" fluid width={400}>
+    <div className="app">
+      <Container className="dark" width={400} fluid margin={"100px auto"}>
         <Content />
       </Container>
     </div>
@@ -13,3 +13,4 @@ const App = () => {
 };
 
 export default App;
+
