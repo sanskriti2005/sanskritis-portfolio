@@ -1,12 +1,15 @@
-import { Container } from '@chakra-ui/react'
-import React from 'react'
+import { Container } from "@chakra-ui/react";
+import React from "react";
+import Content from "./components/Content";
 
 const App = () => {
   return (
-    <Container className='dark' fluid>
-      
-    </Container>
-  )
-}
+    <div>
+      <Container className="dark" fluid width={500}>
+        <Content />
+      </Container>
+    </div>
+  );
+};
 
-export default App
+export default App;
