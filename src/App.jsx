@@ -5,7 +5,7 @@ import Content from "./components/Main";
 const App = () => {
   return (
     <div>
-      <Container className="dark" fluid width={450}>
+      <Container className="dark" fluid width={400}>
         <Content />
       </Container>
     </div>

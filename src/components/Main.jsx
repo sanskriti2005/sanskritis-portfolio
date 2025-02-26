@@ -21,6 +21,7 @@ import {
   AccordionRoot,
 } from "@/components/ui/accordion";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 const Content = () => {
   const experience = [
@@ -62,7 +63,11 @@ const Content = () => {
         </Flex>
       </Box>
       {/* Skills infinite slider */}
-      <Heading>Skills</Heading>
+      <Box width={'100%'} align={'left'} padding={5}>
+      <Heading fontSize={15}>Skills</Heading>
+      <Skills/>
+      </Box>
+      
 
       {/* About me section */}
       <Box width={"100%"} padding={5}>
