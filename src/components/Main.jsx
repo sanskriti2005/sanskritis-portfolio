@@ -39,7 +39,7 @@ const Content = () => {
     },
   ];
   return (
-    <VStack width={"inherit"} margin={"auto"}>
+    <VStack width={"inherit"} height={'100%'} margin={"auto"} >
       {/* Home and About Me Section*/}
       <Box width={"100%"}>
         <Flex
@@ -84,7 +84,10 @@ const Content = () => {
       </Box>
 
       {/* Project section */}
+      <Box id="projects">
       <Projects />
+      </Box>
+      
 
       {/* Experience Section */}
       <Box width={"100%"} padding={5}>

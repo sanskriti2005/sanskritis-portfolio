@@ -1,16 +1,20 @@
-import { Container } from "@chakra-ui/react";
+import { Container, defineKeyframes } from "@chakra-ui/react";
 import React from "react";
 import Content from "./components/Main";
+import Navbar from "./components/Navbar";
+
+const flicker = defineKeyframes`
+  to { mask-position: 50% 50%; }
+`;
 
 const App = () => {
+  const flickerAnimation = `${flicker} 20s infinite linear`;
   return (
-    <div className="app">
+    <Container>
       <Container className="dark" width={400} fluid margin={"100px auto"}>
         <Content />
       </Container>
-    </div>
+    </Container>
   );
 };
-
 export default App;
-
