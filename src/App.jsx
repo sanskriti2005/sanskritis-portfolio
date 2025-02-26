@@ -1,11 +1,11 @@
 import { Container } from "@chakra-ui/react";
 import React from "react";
-import Content from "./components/Content";
+import Content from "./components/Main";
 
 const App = () => {
   return (
     <div>
-      <Container className="dark" fluid width={700}>
+      <Container className="dark" fluid width={450}>
         <Content />
       </Container>
     </div>
